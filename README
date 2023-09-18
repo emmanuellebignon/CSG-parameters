@@ -1,0 +1,15 @@
+MD-scripts:
+Scripts used for the preparation of topology and coordinate files, and for NAMD simulations.
+
+AF-inputs:
+Topology and coordinate files for the AF simulations.
+
+crys-inputs:
+Topology and coordinate files for the crys simulations.
+
+analysis-scripts:
+All cpptraj scripts for structural analysis of the MD ensembles.
+
+CSG-library:
+AMBER library file for the S-glutathionylated cysteine residue.
+
