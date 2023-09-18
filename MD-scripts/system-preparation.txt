@@ -1,0 +1,13 @@
+source leaprc.water.tip3p
+source leaprc.protein.ff14SB
+
+loadoff CSG.lib
+
+a=loadpdb init-AF.pdb
+
+check a
+solvateoct a TIP3PBOX 12.0
+addionsrand a Cl- 0
+
+savepdb a atGRXC5_AF_box.pdb
+saveamberparm a atGRXC5_AF_box.prmtop atGRXC5_AF_box.inpcrd
