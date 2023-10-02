@@ -1,5 +1,6 @@
 MD-scripts:
 Scripts used for the preparation of topology and coordinate files, and for NAMD simulations.
+This includes the leap input file 'system-preparation.txt' in which the CSG library is sourced, that generates the initial topology and coordinates files.
 
 AF-inputs:
 Topology and coordinate files for the AF simulations.
@@ -13,7 +14,7 @@ All cpptraj scripts for structural analysis of the MD ensembles.
 CSG-library:
 AMBER library file for the S-glutathionylated cysteine residue.
 The parameters are usable like any other AMBER parameter file when building the topology and coordinates files of the system.
-If you want to know more about how to build these files to further perform MD simulations of S-glutathionylated proteins, we recommend the AMBER tutorials: https://ambermd.org/tutorials/BuildingSystems.php
+If you want to learn how to build these files to further perform MD simulations of S-glutathionylated proteins, we recommend the AMBER tutorials: https://ambermd.org/tutorials/BuildingSystems.php
 
 Supplementary_Information:
 Supplementary information pdf file with figures and tables.
